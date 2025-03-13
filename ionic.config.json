@@ -1,0 +1,7 @@
+{
+  "name": "belajar-dasar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
