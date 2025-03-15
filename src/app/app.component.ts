@@ -16,7 +16,6 @@ export class AppComponent {
   public currUrl: string = '';
   public appPage = [
     { title: 'App 1', url: '/app1', icon: 'mail' },
-    { title: 'App 2', url: '/app2', icon: 'mail' },
   ];
   
   public appPilihan = [
@@ -35,11 +34,6 @@ export class AppComponent {
   public app2Pages = [
     { title: 'Login', url: '/app2/login_page', icon: 'mail' },
     { title: 'Inbox', url: '/app2/inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/app2/outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/app2/favorites', icon: 'heart' },
-    { title: 'Archived', url: '/app2/archived', icon: 'archive' },
-    { title: 'Trash', url: '/app2/trash', icon: 'trash' },
-    { title: 'Spam', url: '/app2/spam', icon: 'warning' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor(
